@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-01T10:51:47 IST" name="Default suite" finished-at="2021-03-01T10:52:01 IST" duration-ms="13673">
+    <groups>
+    </groups>
+    <test started-at="2021-03-01T10:51:47 IST" name="Default test" finished-at="2021-03-01T10:52:01 IST" duration-ms="13673">
+      <class name="demoProject.JmlExcel">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:demoProject.JmlExcel@222114ba]" started-at="2021-03-01T10:51:47 IST" name="launchBrowser" finished-at="2021-03-01T10:51:54 IST" duration-ms="7029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="LoginValidate(java.lang.String, java.lang.String)[pri:0, instance:demoProject.JmlExcel@222114ba]" started-at="2021-03-01T10:51:54 IST" name="LoginValidate" data-provider="value" finished-at="2021-03-01T10:51:56 IST" duration-ms="1395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidate -->
+        <test-method signature="LoginValidate(java.lang.String, java.lang.String)[pri:0, instance:demoProject.JmlExcel@222114ba]" started-at="2021-03-01T10:51:56 IST" name="LoginValidate" data-provider="value" finished-at="2021-03-01T10:51:57 IST" duration-ms="1254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidate -->
+        <test-method signature="LoginValidate(java.lang.String, java.lang.String)[pri:0, instance:demoProject.JmlExcel@222114ba]" started-at="2021-03-01T10:51:57 IST" name="LoginValidate" data-provider="value" finished-at="2021-03-01T10:51:58 IST" duration-ms="1249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidate -->
+        <test-method signature="LoginValidate(java.lang.String, java.lang.String)[pri:0, instance:demoProject.JmlExcel@222114ba]" started-at="2021-03-01T10:51:58 IST" name="LoginValidate" data-provider="value" finished-at="2021-03-01T10:51:59 IST" duration-ms="881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidate -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:demoProject.JmlExcel@222114ba]" started-at="2021-03-01T10:51:59 IST" name="quitBrowser" finished-at="2021-03-01T10:52:01 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- demoProject.JmlExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

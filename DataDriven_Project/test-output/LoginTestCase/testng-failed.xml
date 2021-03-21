@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoginTestCase]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Tc(failed)">
+    <classes>
+      <class name="demoProject.BothInCorrect">
+        <methods>
+          <include name="bothAreCorrect"/>
+        </methods>
+      </class> <!-- demoProject.BothInCorrect -->
+      <class name="demoProject.BothWrong">
+        <methods>
+          <include name="bothAreWrong"/>
+        </methods>
+      </class> <!-- demoProject.BothWrong -->
+    </classes>
+  </test> <!-- Tc(failed) -->
+</suite> <!-- Failed suite [LoginTestCase] -->
